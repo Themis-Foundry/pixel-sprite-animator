@@ -1,5 +1,5 @@
 [![CI](https://github.com/Themis-Foundry/pixel-sprite-animator/actions/workflows/ci.yml/badge.svg)](https://github.com/Themis-Foundry/pixel-sprite-animator/actions/workflows/ci.yml)
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![No AI at runtime](https://img.shields.io/badge/AI_at_runtime-zero-brightgreen.svg)](#why-no-ai-in-the-animation-step)
 
@@ -61,7 +61,7 @@ Your own sprites need to follow the rig contract — feet on row 29, head in the
 
 ## Who made this
 
-Kyle Miller. This is the creature-animation layer extracted from my game projects, where it animates a bestiary of dozens of sprites without a single per-frame drawing. More: [themisfoundry.com](https://themisfoundry.com)
+Kyle Miller. This is the creature-animation layer extracted from my game projects, where it animates a bestiary of dozens of sprites without a single per-frame drawing. I specify, test and verify; the code is written by AI coding agents under my direction. More: [linkedin.com/in/kylemillerfl](https://www.linkedin.com/in/kylemillerfl)
 
 ## License
 
