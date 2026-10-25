@@ -4,7 +4,7 @@ This is the animation layer extracted from a game project. Contributions are wel
 
 1. **Zero AI at runtime.** Every frame is a deterministic pixel transform. If a contribution requires a model call, it belongs in a different tool.
 2. **The rig contract is the API.** Sprites follow POSE_TEMPLATE.md. Changes to the rig must be backward-compatible with existing sprites.
-3. **Identity preservation.** idle_0 is sacred — it IS the source sprite, untouched. Every other frame derives from it mechanically.
+3. **Identity preservation.** idle_0 is sacred: it IS the source sprite, untouched. Every other frame derives from it mechanically.
 
 ## Adding a new signature action
 

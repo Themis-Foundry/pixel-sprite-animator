@@ -1,4 +1,4 @@
-# Pose template — the rig contract
+# Pose template: the rig contract
 
 The animator is a rig, and rigs need anatomy in known places. Source sprites that follow this contract animate correctly; sprites that don't will still run, but the walk articulation lands on the wrong rows.
 
@@ -31,7 +31,7 @@ Rules:
 
 ## Legless creatures
 
-Robed, round, or floating creatures set `has_visible_legs: false` in META.yaml. The walk cycle switches from leg articulation to a body sway (top of the sprite tilts while the base stays planted) — which reads as weight-shifting, not sliding.
+Robed, round, or floating creatures set `has_visible_legs: false` in META.yaml. The walk cycle switches from leg articulation to a body sway (top of the sprite tilts while the base stays planted), which reads as weight-shifting, not sliding.
 
 ## META.yaml (optional, next to the source sprite)
 
